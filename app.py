@@ -7,7 +7,7 @@ todos = []
 
 with open('todos.txt') as savedTodos:
     for line in savedTodos:
-        todos.append({"todo": str(line)})
+        todos.append({"todo": line.strip()})
 
 savedTodos.close()
 
