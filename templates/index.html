@@ -10,6 +10,7 @@
             <li>
                 {{ todo['todo'] }}
                 <a href="{{ url_for('delete', index=loop.index0) }}">Delete</a>
+                <a href="{{ url_for('edit', index=loop.index0) }}">Edit</a>
             </li>
         {% endfor %}
     </ul>
