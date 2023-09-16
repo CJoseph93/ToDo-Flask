@@ -3,13 +3,13 @@ Simple to do list application using python/flask
 
 Python 3.11
 
-# Windows Setup Guide:
+# Windows:
 
     to install pip run
     - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     - python get-pip.py
 
-# Linux Setup Guide
+# Linux:
 
     to install pip run
     - $ sudo apt install python3-pip
@@ -21,3 +21,5 @@ Python 3.11
 # Running application
    - python app.py
    - navigate to http://127.0.0.1:5000
+
+   - python -m pytest (to run unit tests)
